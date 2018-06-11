@@ -234,7 +234,7 @@ footer p {
     border-radius: 50px 0 0 50px;
     box-sizing: border-box;
     width: 35%;
-    background: #fff;
+    background: #fff url(../img/mail.jpg) no-repeat 10% 50%;
     border: 2px solid transparent;
 }
 .email-form button {
@@ -296,6 +296,10 @@ form:focus,
 form:active{
     border-color: transparent;
     outline: none;
+}
+input:hover, 
+input:focus {
+    border-color: #303030;
 }
 input:focus, 
 textarea:focus, 
